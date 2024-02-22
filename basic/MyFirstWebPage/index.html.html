@@ -1,12 +1,9 @@
 <html>
-
 <head>
     <title>
 	E-COMMERCE site
     </title>
 	<link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body>
@@ -16,7 +13,7 @@
     <img id="banner" src="banaer.jpg" alt="Banaer" height="300" width="550">
     <h1> About LULUTECH</h1>
     <div id="about">
-        <div id="description"><p>
+        <div id="description"><p style="margin-top:0;">
             we're on a mission to build
             the world's most highly reputed technical
             university, and we're building it completely
@@ -32,29 +29,35 @@
                 <li> <a href="https://www.jovian.com/data-science-bootcamp">Data Science bootcamp</a></li>
             </ol>
         </p></div>
-        <div id="team"><img src="team.jpg" alt="team" height="300" width="550"> </div>
+        <div id="team"><img id="team-img" src="team.jpg" alt="team" height="300" > </div>
     </div>
    
     <h1>job Opportunities</h1>
-    <div>
-        <h3>data Scientist</h3>
-        <span class="location"> tamil nadu</span>
+    <div id="jobs">
+        <div>
+            <a href="mailto:mpushpasri2003@gmail.com?subject=datascience" class="apply" target="_blank">Apply</a>
+            <h3 id="job-role">data Scientist</h3>
+            <div class="location"> tamil nadu</div>
+        </div>
+        <div>
+            <a href="mailto:mpushpasri2003@gmail.com?subject=frontend" class="apply" target="_blank">Apply</a>
+            <h3 id="job-role">Front end Developer</h3>
+            <div class="location">west india</div>
+        </div>
+        <div>
+            <a href="mailto:mpushpasri2003@gmail.com?subject=backend" class="apply" target="_blank">Apply</a>
+            <h3 id="job-role">Back end Developer</h3>
+            <div class="location">east india</div>
+        </div>
     </div>
-    <div>
-        <h3>Front end Developer</h3>
-        <span class="location">west india</span>
-    </div>
-    <div>
-        <h3>Back end Developer</h3>
-        <span class="location">east india</span>
-    </div>
-    <div>
-        <ul>
+
+    <div id="footer" style="align-items: center;">
+        <ul id="footer-link">
             <li><a href="https://jovian.com/learn">courses</a></li>
             <li><a href="https://jovian.com/learn">program</a></li>
-            <li><a href="https://jovian.com/learn" target="_blank">youtube</a></li>
+            <li><a href="https://jovian.com/learn" >youtube</a></li>
         </ul>
-        <span> Copyright ©</span>
+        <span id="copyright"> Copyright ©</span>
     </div>
 </body>
 
